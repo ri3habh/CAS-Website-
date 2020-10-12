@@ -1,0 +1,206 @@
+.header-color {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  font-family: 'Arvo', serif; 
+}
+
+.heading-words {
+  font-family: 'Arvo', serif;
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.drawer-color {
+  background: #000000;
+}
+
+.landing-grid {
+  background: #0052D4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+text-align: center;
+position: fixed; 
+overflow: scroll;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+align-items: center;
+}
+
+.avatar-img {
+  height: 250 px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color:black;
+  opacity: .8;
+  width: 80%;
+  padding-top: 10;
+  margin: auto;
+  border-radius: 10 px;
+  align-items: center;
+}
+
+.banner-text2 {
+  background-color:black;
+  opacity: .8;
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  border-radius: 10 px;
+  position: fixed; top: 200px; left: 130px;
+}
+
+.banner-text h1 {
+  font-size: 66 px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20 px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+  position: fixed;
+  overflow: scroll;
+
+}
+
+.contact-body {
+  margin: auto;
+  background: white;
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width:50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.resume-right-col {
+  background: black;
+  color: grey;
+  padding: 2em;
+}
+
+.resume-all {
+  margin: auto;
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.text-style {
+  color: black;
+  padding-bottom: 1em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  position: relative; left: 172px;
+}
+
+.logo-style {
+  margin-bottom: 0em;
+  margin-top: 0.1em;
+  position: relative; right: 250px; top: -20px;
+}
+
+.text-style2 {
+  color: rgb(149, 148, 155);
+  padding-bottom: 1em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  position: relative; left: -155px; top: 45px;
+}
+
+.Calculator-Words {
+  color: '#000000';
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.calc-wrapper {
+  margin: auto;
+  background: white;
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  color: black; 
+}
